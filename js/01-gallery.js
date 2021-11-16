@@ -5,7 +5,6 @@ console.log(galleryItems);
 
 const galleryContainer = document.querySelector('.gallery');
 const photosMarkup = createColorPhotosMarkup(galleryItems);
-let instance = {};
 
 function createColorPhotosMarkup(gallery) {
   return gallery
